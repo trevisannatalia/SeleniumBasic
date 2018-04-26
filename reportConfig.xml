@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <!-- custom styles -->
+    <reportName>Cucumber Report</reportName>
+    <!-- custom javascript -->
+    <scripts>
+      <![CDATA[
+        $(document).ready(function() {
+        
+        });
+      ]]>
+    </scripts>
+    
+    <!-- custom styles -->
+    <styles>
+      <![CDATA[
+        .subview-right {
+          display: grid !important;
+        }
+        .pre{
+          font-family: sans-serif;
+        }
+      ]]>
+    </styles>
+  </configuration>
+</extentreports>
